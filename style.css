@@ -1,7 +1,16 @@
 @font-face {
-    font-family: 'IRANSansWeb';
-     src: url('/IRANSansWeb(FaNum)_Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
-}
+
+    font-family: Vazir;
+ 
+    src: url(/font/Vazir-Medium.woff);
+ 
+    src: url(/font/Vazir-Medium.ttf);
+ 
+    src: url(/font/Vazir-Medium.woff2);
+ 
+    src: url(/font/Vazir-Medium.eot);
+ 
+ }
 body {
-    font-family: IRANSansWeb(FaNum)_Medium ;
+    font-family: Vazir;
 }
