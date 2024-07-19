@@ -1,3 +1,4 @@
+
 @font-face {
 
     font-family: Vazir;
@@ -13,4 +14,16 @@
  }
 body {
     font-family: Vazir;
+    background-color:rgba(0, 255, 163, 1);
+
+}
+.box{
+    border-radius: 45px;
+    border: 1px solid #FFF;
+    background: #FFF;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: auto, 0;
+    text-align: center;
+    width: 290px;
+    padding: 9px;
 }
