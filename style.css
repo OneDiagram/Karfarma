@@ -8,7 +8,7 @@
     url("fonts/Vazir-medium.woff2") format("woff2");
 }
 body {
-    font-family: Vazir;
+    font-family: vazir;
     background-color:rgba(0, 255, 163, 1);
 
 }
