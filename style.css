@@ -9,8 +9,8 @@
 body {
     font-family: vazir;
 
-        background-color: rgba(168,216,255,1);
-        background-image: radial-gradient(at 83% 46%, rgba(218,48,117,1) 0%, transparent 50%), radial-gradient(at 58% 57%, rgba(87,87,255,1) 0%, transparent 50%), radial-gradient(at 52% 3%, rgba(117,130,240,1) 0%, transparent 50%), radial-gradient(at 14.55% 46.612%, rgba(229,255,238,1) 0%, transparent 50%), radial-gradient(at 72.517% 97.331%, rgba(255,132,107,1) 0%, transparent 50%), radial-gradient(at 17% 42%, rgba(194,238,255,1) 0%, transparent 50%), radial-gradient(at 27% 81%, rgba(223,91,230,1) 0%, transparent 50%);
+background: rgb(34,193,195);
+background: linear-gradient(41deg, rgba(34,193,195,1) 0%, rgba(45,253,125,1) 100%);
 }
 .box{
     border-radius: 45px;
