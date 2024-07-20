@@ -1,24 +1,67 @@
-@font-face {
-  font-family: vazir;
-  font-style: normal;
-  font-weight: 500;
-  src: url("fonts/Vazir-medium.eot");
-  src: url("fonts/Vazir-medium.woff") format("woff"),
-    url("fonts/Vazir-medium.ttf") format("ttf"),
-    url("fonts/Vazir-medium.woff2") format("woff2");
+div, .titration {
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
-body {
-    font-family: vazir;
-    background-color:rgba(0, 255, 163, 1);
 
+body {
+	font-family: vazir;
+	text-align: center;
+	background-color: rgba(0, 255, 163, 1);
 }
-.box{
-    border-radius: 45px;
-    border: 1px solid #FFF;
-    background: #FFF;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin: auto, 0;
-    text-align: center;
-    width: 290px;
-    padding: 9px;
+
+.box {
+	border-radius: .5rem;
+	border: 1px solid #fff;
+	background: #fff;
+	box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+	margin: auto 0;
+	text-align: center;
+	width: 290px;
+	padding: 9px;
+}
+
+.titration {
+	color: #ffffff;
+	background-color: black;
+	width: 300px;
+	border-radius: 50px;
+	padding: 20px;
+	margin-bottom: 2rem;
+}
+
+.blink_text {
+	animation-name: blink;
+	animation-duration: 0.25s;
+	animation-iteration-count: Infinite;
+	text-align: center;
+	margin: auto 0;
+}
+
+p {
+	color: #727272;
+	font-weight: lighter;
+	margin-bottom: .2rem;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 0;
+		animation-duration: 5s;
+	}
+	
+	100% {
+		opacity: 1;
+		animation-duration: 5s;
+	}
+}
+
+@font-face {
+	font-family: vazir;
+	font-style: normal;
+	font-weight: 500;
+	src: url("font/Vazir-medium.eot");
+	src:
+		url("font/Vazir-medium.woff") format("woff"),
+		url("font/Vazir-medium.ttf") format("ttf"),
+		url("font/Vazir-medium.woff2") format("woff2");
 }
