@@ -59,10 +59,9 @@
     font-style: normal;
 }
 body {
-    font-family: vazir;
-
-background: rgb(34,193,195);
-background: linear-gradient(41deg, rgba(34,193,195,1) 0%, rgba(45,253,125,1) 100%);
+    font-family: Vazir;
+    background: rgb(34,193,195);
+    background: linear-gradient(41deg, rgba(34,193,195,1) 0%, rgba(45,253,125,1) 100%);
 }
 .box{
     border-radius: 45px;
