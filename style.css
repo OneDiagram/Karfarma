@@ -28,6 +28,7 @@ body {
 	padding: 20px;
 	margin-bottom: 2rem;
 }
+    
 
 .blink_text {
 	animation-name: blink;
