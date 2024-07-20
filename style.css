@@ -71,7 +71,7 @@ body {
     margin: auto, 0;
     text-align: center;
     width: 290px;
-    padding: 9px;
+    padding: 11px;
 }
 #blink_text {
         animation-name:blink; 
